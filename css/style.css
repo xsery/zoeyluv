@@ -13,7 +13,7 @@ video {
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
- background: url('https://raw.githubusercontent.com/xsery/zoeluv.github.io/master/video/zoeluv_First_Frame.png') no-repeat;
+ background: url('../video/zoeluv_First_Frame.png') no-repeat;
   background-size: cover;
   -webkit-transition: 1s opacity;
   transition: 1s opacity;
@@ -83,21 +83,21 @@ a:hover{
     width:38px;
     margin:53px auto 0;
     cursor:pointer;
-    
-    .audio {
-        display:none;
-    }
+}
+
+.b-sound .audio {
+      display:none;
+}
         
-    .play {
-        display:none;
-        width:38px;
-        height:30px;
-        background:url('https://raw.githubusercontent.com/xsery/zoeluv.github.io/master/assets/soundon.png') 0 0 no-repeat;    
-    }
-    
-    .pause {
-        width:38px;
-        height:30px;
-        background:url('https://raw.githubusercontent.com/xsery/zoeluv.github.io/master/assets/soundon.png') 0 0 no-repeat;    
-    }
+.b-sound .play {
+      display:none;
+      width:38px;
+      height:30px;
+      background:url('../assets/soundon.png') 0 0 no-repeat;    
+}
+  
+.b-sound .pause {
+      width:38px;
+      height:30px;
+      background:url('../assets/soundoff.png') 0 0 no-repeat;    
 }
